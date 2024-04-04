@@ -14,10 +14,6 @@
 
 ## Design decisions
 
-# Project Overview
-
-This project has several key features:
-
 - **Mono Repo**: This project uses a mono repo structure to share common validation logic and types across different packages.
 
 - **Zod**: Zod is used to tie together validation logic and types.

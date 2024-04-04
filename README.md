@@ -34,6 +34,7 @@
 ## Assumptions
 
 - Question IDs are unique across all pages
+- Backend will crash if a valid config is not provided.
 
 ## Improvements
 

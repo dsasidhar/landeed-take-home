@@ -1,0 +1,92 @@
+{
+  "pages": [
+    {
+      "id": 1,
+      "title": "Who are you?",
+      "questions": [
+        {
+          "label": "What is your name ?",
+          "id": 12,
+          "validations": {
+            "required": true,
+            "minLength": 3,
+            "maxLength": 20
+          },
+          "type": "text"
+        },
+        {
+          "label": "Tell us your gender",
+          "id": 13,
+          "validations": {
+            "required": true
+          },
+          "type": "multi-select",
+          "options": [
+            {
+              "label": "Male",
+              "id": "1"
+            },
+            {
+              "label": "Female",
+              "id": "2"
+            },
+            {
+              "label": "Non-binary",
+              "id": "3"
+            }
+          ]
+        },
+        {
+          "label": "What is your age ?",
+          "id": 14,
+          "validations": {
+            "required": true
+          },
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Tell us about your work",
+      "questions": [
+        {
+          "label": "What is your Profession ?",
+          "id": 15,
+          "validations": {
+            "required": true
+          },
+          "type": "multi-select",
+          "allowCustomInput": true,
+          "options": [
+            {
+              "label": "Owner",
+              "id": "1"
+            },
+            {
+              "label": "Agent",
+              "id": "2"
+            },
+            {
+              "label": "Buyer",
+              "id": "3"
+            },
+            {
+              "label": "Seller",
+              "id": "4"
+            }
+          ]
+        },
+        {
+          "label": "What services do you need ?",
+          "id": 16,
+          "validations": {
+            "required": false
+          },
+          "type": "text"
+        }
+      ]
+    }
+  ],
+  "timeout": 30
+}

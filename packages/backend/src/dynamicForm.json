@@ -1,0 +1,133 @@
+{
+  "pages": [
+    {
+      "id": 11,
+      "title": "What kind of real estate are you interested in?",
+      "questions": [
+        {
+          "label": "What do you look for in a property ?",
+          "id": 21,
+          "validations": {
+            "required": true,
+            "minLength": 10,
+            "maxLength": 30
+          },
+          "type": "text"
+        },
+        {
+          "label": "What kind of property are you looking for ?",
+          "id": 22,
+          "validations": {
+            "required": true
+          },
+          "type": "multi-select",
+          "options": [
+            {
+              "label": "Residential",
+              "id": "1"
+            },
+            {
+              "label": "Commercial",
+              "id": "2"
+            },
+            {
+              "label": "Land",
+              "id": "3"
+            }
+          ]
+        },
+        {
+          "label": "What is your preferred price range ?",
+          "id": 23,
+          "validations": {
+            "required": true
+          },
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "title": "How did we do?",
+      "questions": [
+        {
+          "label": "How did you hear about us ?",
+          "id": 24,
+          "validations": {
+            "required": true
+          },
+          "type": "multi-select",
+          "allowCustomInput": true,
+          "options": [
+            {
+              "label": "Social Media",
+              "id": "1"
+            },
+            {
+              "label": "Online search",
+              "id": "2"
+            },
+            {
+              "label": "Recommendation",
+              "id": "3"
+            },
+            {
+              "label": "Flyers",
+              "id": "4"
+            }
+          ]
+        },
+        {
+          "label": "What did you appreciate most about our service ?",
+          "id": 25,
+          "validations": {
+            "required": false
+          },
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Closing thoughts",
+      "questions": [
+        {
+          "label": "Would you use our service again ?",
+          "id": 26,
+          "validations": {
+            "required": true
+          },
+          "type": "multi-select",
+          "allowCustomInput": true,
+          "options": [
+            {
+              "label": "Definitely",
+              "id": "1"
+            },
+            {
+              "label": "Likely",
+              "id": "2"
+            },
+            {
+              "label": "Probably",
+              "id": "3"
+            },
+            {
+              "label": "Probably Not",
+              "id": "4"
+            }
+          ]
+        },
+        {
+          "label": "Any outstanding queries ?",
+          "id": 27,
+          "validations": {
+            "required": false
+          },
+          "type": "text"
+        }
+      ]
+    }
+  ],
+  "timeout": 30
+}

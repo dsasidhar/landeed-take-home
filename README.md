@@ -28,8 +28,8 @@
 
 ## Credit
 
--- Vite template: https://github.com/wtchnm/Vitamin for boiler plate
--- Tailwind CSS styling assist from Copilot (Every thing else is hand written) as I was first time Tailwind user.
+- Vite template: https://github.com/wtchnm/Vitamin for boiler plate
+- Tailwind CSS styling assist from Copilot (Every thing else is hand written) as I was first time Tailwind user.
 
 ## Assumptions
 

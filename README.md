@@ -1,16 +1,13 @@
 ## To get it to run
 
-1. `cd packages/front-end`
-2. `pnpm install`
-3. `cd ../common`
-4. `pnpm install`
-5. `pnpm build`
-6. `cd ../back-end`
-7. `pnpm install`
-8. `pnpm run dev` (should have .env.local with Mongo Credentials, see .env.example for reference)
+1. `pnpm install`
+2. `cd ./packages/common`
+3. `pnpm build`
+4. `cd ./packages/back-end`
+5. `pnpm run dev` (should have .env.local with Mongo Credentials, see .env.example for reference)
    -- new terminal --
-9. `cd ../front-end`
-10. `pnpm run dev`
+6. `cd ../front-end`
+7. `pnpm run dev`
 
 ## Design decisions
 
